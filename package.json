@@ -1,0 +1,8 @@
+{
+  "name": "gold-scanner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "XAUUSD setup scanner with Telegram alerts and a Telegram Mini App",
+  "scripts": { "scan": "node scan/index.js", "test": "node --test test/scan.test.js" },
+  "engines": { "node": ">=20" }
+}
